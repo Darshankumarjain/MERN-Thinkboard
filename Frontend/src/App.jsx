@@ -1,10 +1,7 @@
-import React from 'react'
-
 import HomePage from './pages/HomePage.jsx';
-import CreatePage from './pages/CreatePage';
-import NoteDetailpage from './pages/NoteDetailpage';
+import CreatePage from './pages/CreatePage.jsx';
+import NoteDetailPage from './pages/NoteDetailPage.jsx';
 import { Route, Routes } from 'react-router';
-import toast from 'react-hot-toast';
 
 
 const App = () => {
@@ -14,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
-        <Route path="/note/:id" element={<NoteDetailpage />} />
+        <Route path="/note/:id" element={<NoteDetailPage />} />
       </Routes>
     </div>
   )
