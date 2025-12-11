@@ -1,0 +1,22 @@
+{
+  "name": "thinlkboard-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm run start --prefix Backend" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshankumarjain/MERN-Thinkboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Darshankumarjain/MERN-Thinkboard/issues"
+  },
+  "homepage": "https://github.com/Darshankumarjain/MERN-Thinkboard#readme",
+  "description": ""
+}
